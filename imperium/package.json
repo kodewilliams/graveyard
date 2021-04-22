@@ -1,0 +1,29 @@
+{
+  "name": "motiv8",
+  "version": "1.0.0",
+  "description": "No description.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodewilliams/motiv8.git"
+  },
+  "author": "Kode Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kodewilliams/motiv8/issues"
+  },
+  "homepage": "https://github.com/kodewilliams/motiv8#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "csv-array": "0.0.22",
+    "express": "^4.16.1",
+    "path": "^0.12.7",
+    "random-number": "0.0.9",
+    "reload": "^2.2.2"
+  }
+}

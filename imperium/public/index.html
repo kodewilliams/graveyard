@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="motiv8">
+
+<head>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Motiv8</title>
+</head>
+
+<body ng-controller="QuotesController">
+	<div id="container"></div>
+		<ul class="quotes">
+			<li ng-repeat="quote in quotes">
+				<p id="quote">{{ quote.body }}</p>
+				<p id="author">{{ quote.author }}</p>
+			</li>
+		</ul>
+	</div>
+
+	<script src="angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="particles.min.js"></script>
+
+	<script type="text/javascript">
+		particlesJS.load('container', 'particles-config.json');
+	</script>
+</body>
+</html>
